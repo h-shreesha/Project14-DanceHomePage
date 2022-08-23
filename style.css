@@ -198,3 +198,60 @@ body{
     left: 2rem;
     top: 7rem;
 }
+
+@media screen and (max-width: 1323px) {
+    .bgImg{
+        z-index: -1;
+        opacity: 0.1;
+    }
+
+    .logo{
+        width: 100px;
+        margin-left: -1rem;
+    }
+
+    .nav-line{
+        display: none;
+    }
+
+    .list{
+        display: flex;
+        position: relative;
+        left: -30rem;
+    }
+
+    .section1-h1{
+        position: relative;
+        left: -14rem;
+    }
+
+    .section1-mid{
+        position: relative;
+        left: -22rem;
+    }
+
+    .section1-right{
+        position: relative;
+        left: -15rem;
+    }
+
+    .section2-part1{
+        position: relative;
+        left: -20rem;
+    }
+
+    .section2-part2{
+        position: relative;
+        left: -20rem;
+    }
+
+    .section2-mid{
+        position: relative;
+        left: -19rem;
+    }
+
+    .sec2-right-img{
+        position: relative;
+        left: -20rem;
+    }
+}
